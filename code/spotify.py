@@ -5,7 +5,7 @@ import json
 import types
 
 
-USER_NAME = '1182701610'
+USER_NAME = "your user"#
 SCOPE = 'user-read-recently-played'
 DATA_DIR = '../data'
 
@@ -15,8 +15,8 @@ def current_user_recently_played(self, limit=50):
 token = util.prompt_for_user_token(
         USER_NAME,
         SCOPE,
-        client_id='a0460ad67f0e41cd98bc7fde6bead6e9',
-        client_secret='4aba3b0ea04d479eba656438b954c588',
+        client_id='your id',
+        client_secret='your secret',
         redirect_uri='http://localhost:9999/callback'
         )
 
